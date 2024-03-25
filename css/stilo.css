@@ -1,0 +1,13 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, #9c8680, #eb5e7f, #f98f6f, #dbbf6b, #c8eb6a);
+}
+
+button {
+    margin: 20px;
+    border: none;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+}
