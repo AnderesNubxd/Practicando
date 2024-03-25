@@ -13,3 +13,7 @@ const contenedorPrincipal = document.querySelector(".nuevasTarjetas");
 function alPrecionar() {
     contenedorPrincipal.appendChild(AgregarTarjeta());
 }
+
+const botonAccion = document.querySelector("#agregar");
+
+botonAccion.addEventListener("click", alPrecionar);
